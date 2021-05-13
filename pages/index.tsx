@@ -1,10 +1,11 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <title>Hermes</title>
       </Head>
 
@@ -13,7 +14,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        Desenvolvido pelo 3º Sargento Nespolo
+
       </footer>
     </div>
   )
